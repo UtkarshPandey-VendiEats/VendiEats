@@ -1,0 +1,34 @@
+/* Custom CSS for Vendi Eats Website */
+
+/* Custom orange color variables */
+:root {
+    --vendi-orange: #FF8C00; /* A vibrant orange */
+}
+
+body {
+    /* Font family and background color are already set in HTML via Tailwind and inline style,
+       but can be explicitly defined here if needed for broader scope. */
+}
+
+/* Custom Tailwind classes for easy reuse */
+.bg-vendi-orange {
+    background-color: var(--vendi-orange);
+}
+
+.text-vendi-orange {
+    color: var(--vendi-orange);
+}
+
+.border-vendi-orange {
+    border-color: var(--vendi-orange);
+}
+
+/* Ensure images are fluid within their containers */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below image */
+}
+
+/* Add any additional custom styles here if needed,
+   beyond what Tailwind CSS provides. */
